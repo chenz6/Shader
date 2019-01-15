@@ -1,6 +1,6 @@
 #version 330 compatibility
-uniform float uAd=0.1;
-uniform float uBd=0.1;
+uniform float uAd=0.5;
+uniform float uBd=0.5;
 uniform float uTol=0.0;
 
 
