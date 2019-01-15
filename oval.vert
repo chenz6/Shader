@@ -8,7 +8,6 @@ out float vLightIntensity;
 
 out vec2  vST; 
 
-out vec4  vColor;
 
 
 
@@ -33,8 +32,6 @@ main( )
  vLightIntensity  = abs( dot( normalize(LIGHTPOS - ECposition), tnorm )  );
 
 
-
- vColor = gl_Color;
 
  vMCposition  = gl_Vertex.xyz;
 
