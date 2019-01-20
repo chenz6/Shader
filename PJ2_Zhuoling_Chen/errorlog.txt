@@ -1,0 +1,9 @@
+
+ERROR: 0:114: 'c0' : undeclared identifier 
+ERROR: 0:114: 'assign' :  cannot convert from '4-component vector of highp float' to 'highp float'
+ERROR: 0:118: 'c0' : undeclared identifier 
+ERROR: 0:118: 'c1' : undeclared identifier 
+ERROR: 0:118: '=' :  cannot convert from 'highp float' to '4-component vector of highp float'
+ERROR: 0:122: '==' : wrong operand types no operation '==' exists that takes a left-hand operand of type '4-component vector of highp float' and a right operand of type 'float' (or there is no acceptable conversion)
+
+
