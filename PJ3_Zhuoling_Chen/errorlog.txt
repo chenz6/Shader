@@ -1,0 +1,5 @@
+
+ERROR: 0:55: 'dzdx' : undeclared identifier 
+ERROR: 0:56: 'dzdy' : undeclared identifier 
+
+
