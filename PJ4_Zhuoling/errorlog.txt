@@ -1,0 +1,8 @@
+
+ERROR: 0:35: '=' :  cannot convert from '3-component vector of highp float' to '4-component vector of highp float'
+ERROR: 0:41: 'refract' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:40: 'assign' :  cannot convert from 'const highp float' to 'varying 3-component vector of highp float'
+ERROR: 0:42: 'reflect' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:41: 'assign' :  cannot convert from 'const highp float' to 'varying 3-component vector of highp float'
+
+
