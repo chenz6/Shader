@@ -1,0 +1,19 @@
+##OpenGL GLIB
+LookAt  0 0 3  0 0 0  0 1 0
+Perspective 70
+
+Vertex    ovalnoise.vert
+Fragment  ovalnoise.frag
+Program   ovalnoise                                             \
+       uAd <0 5. 10> \
+uP <0. .25 1.> \
+uTol <0. 0. .5>
+        
+
+Color 1. .9 0
+Obj pigY.obj
+
+
+
+
+
