@@ -1,5 +1,0 @@
-
-ERROR: 0:57: 'rgb' : undeclared identifier 
-ERROR: 0:58: 'constructor' : not enough data provided for construction 
-
-
