@@ -1,0 +1,73 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 0 4  0 0 0  0 1 0
+
+Vertex texture.vert
+Fragment texture.frag
+Program Texture  TexUnit 6
+
+Texture2D  6  floor.bmp
+QuadYZ 5. 5. 10 10
+
+Texture2D  6  floor.bmp
+QuadYZ -5. 5. 10 10
+
+
+Texture2D  6  posy.bmp
+QuadXZ 5. 5. 10 10
+
+Texture2D  6  floor.bmp
+QuadXZ -5. 5. 10 10
+
+
+Texture2D  6  floor.bmp
+QuadXY 5. 5. 10 10
+
+Texture2D  6  snowa.bmp
+QuadXY -5. 5. 10 10
+
+
+CubeMap 6 nvposx.bmp nvnegx.bmp  nvposy.bmp nvnegy.bmp   nvposz.bmp nvnegz.bmp
+
+//CubeMap 7 nvposx.bmp nvnegx.bmp  nvposy.bmp nvnegy.bmp   nvposz.bmp nvnegz.bmp
+
+
+
+
+#QuadXY  -0.2  1.  200 200
+#Obj Manzana.obj 
+#Sphere 1 50 50
+
+Vertex   noise.vert
+Fragment noise.frag
+Program  noise				\
+		uAlpha <0. 1. 1.>   \
+		uAd <.01 .3 1.>  uBd <.01 .25 1.>		\
+		uNoiseAmp <0. 0.3 1.>    \
+		uNoiseFreq <0. .85 5.>  \
+		uOvalColor {1. 1. 1.}    \
+		
+		
+Translate 0. 2.3 -4.
+Rotate  -195 0. 1. 0
+scale 0.9
+Color 1. 1. 1.
+Obj Manzana.obj
+
+
+Vertex	cubesample.vert
+Fragment	cubesample.frag
+Program    CubeSample					\
+		uReflectUnit 6				\
+		uRefractUnit 7  				\
+		uEta <0. 1.4 4.0>			\
+        	uNoiseAmp <0. 0. 5.>			\
+        	uNoiseFreq <0.1 1. 5.>		\
+		uMix <0.5 0. 0.8.>
+
+Translate -0.5 -1 -4.
+Rotate  -195 0. 1. 0
+scale 0.9
+//Color 1. 1. 1.
+Obj Manzana.obj
